@@ -299,27 +299,6 @@ A aplicação também disponibiliza o console do H2 em:
 ```text
 http://localhost:8080/h2-console
 ```
-
-## CI — Integração Contínua
-
-O projeto utiliza GitHub Actions para executar automaticamente os testes a cada alteração enviada ao repositório.
-
-O objetivo é verificar automaticamente se o código continua compilando e se os testes estão passando antes de ser integrado ao projeto.
-
-```text
-Push / Pull Request
-        ↓
-GitHub Actions
-        ↓
-Configura Java 21
-        ↓
-Executa Maven
-        ↓
-mvn test
-        ↓
-Build aprovado ou falha
-```
-
 ## Aprendizados
 
 Este projeto foi desenvolvido para consolidar conhecimentos sobre:
@@ -336,5 +315,4 @@ Este projeto foi desenvolvido para consolidar conhecimentos sobre:
 * Factory;
 * Facade;
 * SOLID;
-* testes automatizados;
-* Integração Contínua com GitHub Actions.
+
